@@ -2,39 +2,31 @@ package com.rahulmitt.interviewpedia.ds.list;
 
 public interface List {
 
-    // Visit all the elements of the array one by one
-    void display();
+    void display();                     // Visit all the elements of the array one by one
 
-    // Add a new element at the end of the array
-    void add(int x);
+    void add(int x);                    // Add a new element at the end of the array
 
-    // Insert an element at a given index
-    void insert(int index, int x);
+    void insert(int index, int x);      // Insert an element at a given index
 
-    // Delete an element at a given index
-    int delete(int index);
+    int delete(int index);              // Delete an element at a given index
 
-    // Search the given element and return the index
-    int linearSearch(int x);
+    int linearSearch(int x);            // Search the given element and return the index
 
-    // Search the given element and return the index
-    int binarySearch(int x);
+    int binarySearch(int x);            // Search the given element and return the index
 
-    // Get the element at a given index
-    int get(int index);
+    int get(int index);                 // Get the element at a given index
 
-    // Replace the element at a given index
-    void set(int index, int x);
+    void set(int index, int x);         // Replace the element at a given index
 
-    // Find the max element in unsorted array
-    int max();
+    int size();                         // Returns the count of elements
 
-    // Find the min element in unsorted array
-    int min();
+    int max();                          // Find the max element in unsorted array
 
-    int sum();
+    int min();                          // Find the min element in unsorted array
 
-    int avg();
+    int sum();                          // Find the sum of all elements in unsorted array
+
+    int avg();                          // Find the average of all elements in unsorted array
 
     void reverseUsingAuxiliaryArray();
 
